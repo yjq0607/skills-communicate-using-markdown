@@ -4,3 +4,9 @@
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
+### Here is some example code!
+```
+function twoArraysIntoObject(h, d) {
+    return h.reduce((o, k, i) => ({...o, [k]: d[i]}), {});
+}
+```
